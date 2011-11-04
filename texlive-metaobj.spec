@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/metaobj
+# catalog-date 2007-08-24 22:48:09 +0200
+# catalog-license lppl
+# catalog-version 0.93
 Name:		texlive-metaobj
 Version:	0.93
 Release:	1
@@ -50,6 +56,7 @@ package. It is easily extensible with new objects.
 %doc %{_texmfdistdir}/doc/metapost/metaobj/README
 %doc %{_texmfdistdir}/doc/metapost/metaobj/license.txt
 %doc %{_texmfdistdir}/doc/metapost/metaobj/momanual.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ package. It is easily extensible with new objects.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
