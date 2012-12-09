@@ -57,3 +57,17 @@ package. It is easily extensible with new objects.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.93-2
++ Revision: 753858
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.93-1
++ Revision: 718997
+- texlive-metaobj
+- texlive-metaobj
+- texlive-metaobj
+- texlive-metaobj
+
