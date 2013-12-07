@@ -6,7 +6,7 @@
 # catalog-version 0.93
 Name:		texlive-metaobj
 Version:	0.93
-Release:	3
+Release:	4
 Summary:	MetaPost package providing high-level objects
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/metaobj
